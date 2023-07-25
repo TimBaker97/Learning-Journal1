@@ -1,0 +1,93 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+    text-align: right;
+}
+
+/* FEATURE ARTICLE */
+.article {
+    margin: 2em 1.25em 0;
+    color: #151515;
+}
+
+.article-date {
+    font-size: 0.75rem;
+}
+
+.article-title {
+    margin: 1em 0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 108.2%;
+    letter-spacing: -0.06rem;
+}
+
+.article-highlighted-text {
+    font-weight: 700;
+}
+
+.article-text {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.recent-posts-text {
+    margin: 3.19em 0 0;
+    color: #000;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* IMAGES */
+.article-img {
+    margin: 2.19em auto;
+    width: 100%;
+    max-height: 11.9375rem;
+    object-fit:cover;
+    object-position: 90% 75%;
+    border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        background: #FAFAFA;
+        margin: 0;
+    }
+
+    .article {
+        margin-top: 3em;
+    }
+
+    .article-text-div {
+        margin: 0 7.56em;
+    }
+
+    .article-date {
+        font-size: 1rem;
+    }
+
+    .article-title {
+        font-size: 2.25rem;
+    }
+
+    .article-highlighted-text {
+        font-size: 1.5rem;
+    }
+
+    .article-img {
+        max-height: 30.5em;
+    }
+
+    .article-page-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

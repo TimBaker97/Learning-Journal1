@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-pic {
+    width: 11.375rem;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.intro-paragraph {
+    color: #151515;
+    font-size: 2.17738rem;
+    font-weight: 700;
+    line-height: 108.2%;
+    letter-spacing: -0.06531rem;
+    margin: 1em 0 0.5em; 
+}
+
+.about-me-page-article-text {
+    margin: 0;
+}
+
+.about-me-page-margin {
+    margin-top: 3.12em;
+}
+
+@media (min-width: 768px) {
+    .personal-info-grid {
+        margin: 0 auto;
+        display: flex;
+        gap: 2.06em;
+    }
+    
+    .profile-pic {
+        margin: 0;
+        grid-row: 1 / -1;
+    }
+
+    .about-me-info-card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.62em;
+        margin: auto 0;
+    }
+
+    .intro-paragraph {
+        margin: 0;
+        font-size: 2.25em;
+    }
+}
